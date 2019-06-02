@@ -10,6 +10,11 @@
     <version>1.0.1</version>
     <modules>
         <module>hawking-mybatis01-hello</module>
+        <module>hawking-mybatis02-config</module>
+        <module>hawking-mybatis04-dynamicsql</module>
+        <module>hawking-mybatis05-cache</module>
+        <module>hawking-mybatis06-ssm</module>
+        <module>hawking-mybatis06-ssm</module>
     </modules>
 
     <properties>
@@ -44,6 +49,28 @@
                 <artifactId>mysql-connector-java</artifactId>
                 <version>5.0.4</version>
             </dependency>
+            <!-- 第三方缓存echcache-->
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-log4j12</artifactId>
+                <version>1.6.1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>1.6.1</version>
+            </dependency>
+            <dependency>
+                <groupId>net.sf.ehcache</groupId>
+                <artifactId>ehcache-core</artifactId>
+                <version>2.6.8</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mybatis.caches</groupId>
+                <artifactId>mybatis-ehcache</artifactId>
+                <version>1.1.0</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>
